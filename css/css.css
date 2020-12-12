@@ -1,0 +1,369 @@
+*{
+  font-family: 'Open Sans', sans-serif;
+}
+header{
+  width: 100%;
+  height: 870px;
+}
+header img{
+  position: absolute;
+}
+.Tablet{
+  width: 100%;
+  height: 85px;
+  display: block;
+  background-color: #e3c68a;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 100000;
+}
+.Tablet .logo {
+  width: 38%;
+  height: 100%;
+  float: left;
+}
+.Tablet .menu{
+  width: 60%;
+  height: 100%;
+  float: left;
+
+}
+
+.menu a {
+  text-decoration: none;
+  color: white;
+  line-height:20px;
+}
+.menu ul .l1 {
+  font-size:15px;
+  float: left;
+  height: 45px;
+  list-style:none;
+  width: auto;
+  position: relative;
+  margin-right: 47px;
+  padding-top: 20px;
+}
+.submenu{
+  display: none;
+  position: absolute;
+  height: auto;
+  width: 160px;
+  background-color: white;
+  box-shadow: 1px 2px 3px 4px #9e9e9e;
+  margin-top: 25px;
+}
+.submenu li{
+  float: none;
+  list-style: none;
+  text-align: revert;
+  margin-left: -20px;
+}
+.submenu a{
+  line-height: 48px;
+  color: black;
+}
+.menu ul li:hover ul{
+  display:block ;
+  transition: 2.0s;
+}
+.menu ul li:hover .fukof{
+  color: red;
+  transition: 0.6s;
+}
+.submenu li:hover a{
+  color: red;
+  transition: 0.6s;
+}
+.banner{
+  position: relative;
+  padding-top: 100px;
+}
+.banner p{
+  font-size: 18px;
+  color: white;
+  text-align: center;
+}
+.banner img{
+  margin-left: 481px;
+}
+.banner button{
+  background-color: #ef4262;
+  border: none;
+  float: left;
+  width: 200px;
+  font-size: 20px;
+  height: 80px;
+  text-align: center;
+
+  margin-top: 299px;
+  text-decoration: none;
+
+  margin-left: 662px;
+}
+.banner button:hover a{
+  color: yellow;
+}
+.banner button a{
+  text-decoration: none;
+  color: white;
+}
+
+.banner2{
+  float: left;
+  width: 101%;
+  height: 549px;
+  box-sizing: border-box;
+  background-image: url(../img/inner_liquid.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.banner2 .onghut{
+  float: left;
+  margin-top: 150px;
+  margin-left: 300px;
+  width: 30%;
+}
+.banner2 .text{
+
+  width: 437px;
+  height: 276px;
+  float: left;
+  margin-top: 135px;
+  margin-left: 29px;
+}
+.banner2 .text p{
+  font-size: 18px;
+  line-height: 29px;
+  color: white;
+}
+.banner2 h1{
+  font-size: 50px;
+  color: wheat;
+  font-family: 'Dancing Script', cursive;
+}
+.banner2 h3{
+  color: white;
+}
+.banner3{
+  background-color: #5AC2C7;
+  width: 101%;
+  height: 500px;
+  float: left;
+}
+.banner3 .text1{
+  float: left;
+  width: 283px;
+  height: 308px;
+  margin-left: 265px;
+  margin-top: 63px;
+}
+.banner3 .text1 h1{
+  font-size: 45px;
+  font-family: 'Dancing Script', cursive;
+  color: white;
+}
+.banner3 .text1 p{
+  color: white;
+  line-height: 26px;
+  padding-bottom: 35px;
+}
+.banner3 .text1 button{
+  border: none;
+  width: 120px;
+  color: white;
+  background-color: #EF4864;
+  height: 48px;
+  border-radius: 59px;
+}
+.banner3 img{
+  float: left;
+  margin-left: 30px;
+}
+.banner3 .bbox{
+  width: 257px;
+  float: left;
+  margin-left: 55px;
+  margin-top: 89px;
+}
+.banner3 .bbox .box1{
+  width: 49%;
+  float: left;
+  border: 1px solid white;
+}
+.banner3 .bbox .box1 h1{
+  text-align: center;
+  color: white;
+}
+.banner3 .bbox .box1 p{
+  text-align: center;
+  color: white;
+}
+
+.banner4{
+  float: left;
+  width: 100%;
+  height:600px;
+  background-image: url(../img/inner_product_hero_02.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.banner4 .text2{
+  width: 44%;
+  height: 100%;
+  float: right;
+}
+.banner4 .text2 h1{
+  margin-top: 94px;
+  color: #EF4864;
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+}
+.banner4 .text2 button{
+  margin-left: 24PX;
+  margin-top: 50px;
+  width: 150px;
+  border: none;
+  height: 50px;
+  background-color: #EF4864;
+  border-radius: 50px;
+}
+.banner4 .text2 button a{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.banner4 p{
+  width: 77%;
+  line-height: 30px;
+}
+.banner4 .box2{
+  width: 19%;
+  margin-top: -30px;
+  float: left;
+  margin-right: 6px;
+}
+.banner4 .box2 h1{
+  font-size: 40px;
+  text-align: center;
+  line-height: 10px;
+  color: #EF4864;
+
+}
+.banner4 .box2 h2{
+  text-align: center;
+  color: #EF4864;
+}
+
+.banner5{
+  float: left;
+  width: 100%;
+  height:600px;
+  background-image: url(../img/inner_product_hero_03.jpg);
+  background-position: center;
+  background-size: cover;
+}
+.banner5 .text2{
+  width: 44%;
+  height: 100%;
+  float: left;
+}
+.banner5 .text2 h1{
+  margin-top: 94px;
+  float: right;
+  color: #EF4864;
+  font-family: 'Dancing Script', cursive;
+  font-size: 45px;
+}
+.banner5 .text2 button{
+  margin-left: 24PX;
+  margin-top: 50px;
+  float: right;
+  width: 150px;
+  border: none;
+  height: 50px;
+  background-color: #EF4864;
+  border-radius: 50px;
+}
+.banner5 .text2 button a{
+  color: white;
+  font-size: 18px;
+  text-decoration: none;
+}
+.banner5 p{
+  width: 81%;
+  line-height: 30px;
+  margin-right: -34px;
+  padding-left: 29px;
+  float: right;
+}
+.banner5 .box2{
+  width: 19%;
+  float: right;
+  margin-top: -30px;
+
+  margin-right: 6px;
+}
+.banner5 .box2 h1{
+  font-size: 40px;
+  text-align: center;
+  line-height: 10px;
+  color: #EF4864;
+
+}
+.banner5 .box2 h2{
+  text-align: center;
+  color: #EF4864;
+}
+
+
+.banner6{
+  width: 100%;
+  height: auto;
+  background-image: url(../img/blue_pattern_fruit.jpg);
+  background-position: center;
+  background-attachment: fixed;
+  background-size: cover
+
+}
+.banner6 img{
+  margin-left: 428px;
+}
+.banner6 a{
+  float: left;
+  position: absolute;
+  text-decoration: none;
+  font-size: 58px;
+  color: #EF4864;
+  margin-left: -438px;
+  margin-top: 239px;
+  width: 8%;
+  text-align: center;
+  font-family: 'Dancing Script', cursive;
+}
+
+.sidebar{
+  width: 100%;
+  height: 520px;
+  background-image:url(../img/footer_ice_cream.jpg);
+  background-size: cover;
+  background-position: center;
+}
+.sidebar h2{
+  text-align: center;
+  color: #642C11;
+  font-family: 'Dancing Script', cursive;
+}
+.sidebar .bbox p{
+  text-align: center;
+  color: #642C11;
+}
+.sidebar .bbox #first{
+  margin-left: 680px;
+}
+.sidebar .bbox i{
+  color: #642C11;
+  font-size: 25px;
+  margin-left: 16px;
+}
